@@ -1,0 +1,38 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist
+coverage
+
+# Environment & local configs
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Prisma
+.prisma
+*.db
+
+# Logs
+*.log
+logs
+tmp
+pids
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
