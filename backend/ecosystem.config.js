@@ -7,7 +7,7 @@ module.exports = {
         exec_mode: 'cluster',
         env: {
           NODE_ENV: 'production',
-          PORT: 3001,
+          PORT: 3000,
           DATABASE_URL: 'postgresql://chatuser:chat-app@localhost:5432',
           REDIS_HOST: 'redis',
           REDIS_PORT: 6379,
